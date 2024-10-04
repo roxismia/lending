@@ -1,0 +1,807 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dela+Gothic+One&display=swap');
+:root {
+  font-family:  'Dela Gotic One';
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.no-overflow {
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* GENERAL STYLES */
+ul {
+  list-style-type: none;
+}
+
+body {
+  background: #ffff;
+  list-style: none;
+  list-style-type: none;
+}
+
+h1 {
+  text-align: left;
+  font-size: 95px;
+  font-family: 'Dela Gotic One';
+  color: #212121;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 1,5;
+}
+
+h2 {
+  font-size: 55px;
+  font-family: 'Dela Gotic One';
+  font-style: Bold;
+  line-height: 63px;
+}
+
+h3 {
+  font-size: 41px;
+  font-family: 'Dela Gotic One';
+  line-height: 54px;
+}
+
+h4 {
+  font-size: 18px;
+  font-family: 'Dela Gotic One';
+  color: #000;
+}
+
+h5 {
+  font-size: 23pxpx;
+  font-family: 'Dela Gotic One';
+
+}
+
+.content {
+  display: inline-block;
+}
+
+.container {
+  width: 1400px;
+  padding-top: 20px;
+  
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title__right {
+  font-size: 40px;
+  line-height: 89%;
+  color: #212121;
+  padding-right: 30px;
+}
+
+
+/*HEADER*/
+.navbar__wrap {
+  display: flex;
+  border-bottom: 1px solid #212121;
+
+}
+
+nav ul {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Dela Gotic One';
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #212121;
+  
+}
+
+nav ul li {
+  padding-top: 20px;
+}
+
+.arrow {
+  margin-top: 40px;
+  margin-left: 400px;
+  width: 150px;
+  height: 20px;
+  background: url("./assets/Frame 160.png");
+
+}
+
+/* //////////////////////// */
+/* BLOCK__INFO */
+.block__info {
+  background: url("./assets/фон.png");
+  background-size: cover;
+  background-position: center;
+  border: 140px;
+  border-radius: 4%;
+}
+
+.block__info__sub::before {
+  content: "";
+  width: 308px;
+  height: 200px;
+  position: absolute;
+  top: -40px;
+  left: 105px;
+  background: url("./assets/Ellipse 9.svg");
+  background-size: cover;
+
+}
+
+.bloc__info__img__radius::before {
+  content: "";
+  width: 108px;
+  height: 108px;
+  position: absolute;
+  top: 0px;
+  left: -90px;
+  background: url("./assets/Star 2(1).png");
+  background-size: cover;
+}
+
+.bloc__info__img__radius::after {
+  content: "";
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  top: 120px;
+  left: -105px;
+  background: url("./assets/Star 4.png");
+  background-size: cover;
+}
+
+
+.block_info__img {
+  position: relative;
+  margin: 60px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: url("./assets/boss.png");
+}
+
+.block_info__img::before {
+  content: "";
+  width: 385px;
+  height: 390px;
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  background: url("./assets/Linked Path Group.png");
+}
+
+.block_info__img::after {
+  content: "";
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  top: 380px;
+  left: 320px;
+  background: url("./assets/Star 4.png");
+}
+
+
+.btn {
+  padding:20px 10px 10px 10px;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  background: #A0B427;
+  border: 1px solid #212121;
+  box-shadow: 0px 4px 10px rgba(160, 180, 39, 0.25);
+  border-radius: 50px;
+  font-size: 22px;
+  font-family: 'Dela Gotic One';
+  color: #212121;
+  margin-left: 20px;
+  transition: all 0.3s ease;
+}
+
+
+.btn:hover {
+  transform: translateY(-5px);
+  background: #95A017;
+  box-shadow: 0px 6px 15px rgba(160, 180, 39, 0.35);
+}
+
+.btn:active {
+  transform: translateY(0);
+  background: #819915;
+  box-shadow: 0px 2px 5px rgba(160, 180, 39, 0.3);
+}
+
+.block__info__btn {
+  position: absolute;
+  left: 550px;
+  top: -120px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+/* ////////////////////////// */
+/* specialization */
+
+.specialization_contet {
+  background: url("./assets/fon2.png");
+  background-size: cover;
+  border-radius: 20px;
+}
+
+
+.top__circle::before {
+  content: "";
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  top: 150px;
+  left: 335px;
+  background: url("./assets/Star 4.png");
+  background-size: cover;
+
+}
+
+.top__circle::after {
+  content: "";
+  width: 87px;
+  height: 87px;
+  position: absolute;
+  top: 25px;
+  left: 275px;
+  background: url("./assets/Star 2(1).png");
+  background-size: cover;
+
+}
+
+
+.specialization__img {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 235px;
+  width: 298px;
+  height: 298px;
+  background: url("./assets/boss2.png");
+  border-radius: 50%;
+}
+
+.specialization__img::before {
+  content: "";
+  width: 550px;
+  height: 550px;
+  position: absolute;
+  top: -160px;
+  left: -145px;
+  background: url("./assets/Linked Path Group.svg");
+  background-size: cover;
+  z-index: 2;
+}
+
+.specialization__img::after {
+  content: "";
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  top: 320px;
+  left: 275px;
+  background: url("./assets/Star 4.png")
+}
+
+.specialization .title {
+  position: relative;
+}
+
+.specialization .title::before {
+  content: "";
+  width: 79px;
+  height: 79px;
+  position: absolute;
+  top: 15px;
+  right: 75px;
+  background: url("./assets/Icon.svg");
+  background-size: cover;
+
+}
+
+
+/* /////////////////////////////////// */
+/* Experience */
+
+.experience__card__img {
+  width: 33%;
+  height: 486px;
+  background: url("./assets/boss3.png");
+  border-radius: 20px;
+  margin-right: 45px;
+}
+
+
+/* //////////////////////////////// */
+/* Base */
+.base__cards {
+  padding-top: 50px;
+  padding-left: 30px;
+  background: url('./assets/фон.png');
+  background-size: cover;
+  border-radius: 30px;
+}
+
+
+.base__svg {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  background: url('./assets/lamp.svg');
+  margin-right: 10px;
+  left: -70px;
+}
+
+
+
+.technologies__row {
+  background: url('./assets/фон.png');
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+
+
+/* ////////////////// */
+/* servise */
+
+
+
+.color__black::after {
+  content: "";
+  width: 87px;
+  height: 87px;
+  position: absolute;
+  top: -125px;
+  left: 175px;
+  background: url('./assets/Star 2(1).png');
+  background-size: cover;
+}
+
+.color__black::before {
+  content: "";
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  top: -70px;
+  left: 275px;
+  background: url('./assets/Star 4.png')
+}
+
+/* КОНТАКТЫ */
+/* /////////////////////////// */
+
+.contact__font::before {
+  content: "";
+  width: 308px;
+  height: 200px;
+  position: absolute;
+  top: 80px;
+  left: 105px;
+  background: url("./assets/Ellipse 9.svg");
+  background-size: cover;
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media (max-width: 480px) { 
+  #app {
+    min-width: 100%;
+    padding: 0;
+  }
+  .container {
+    width: 97%;
+  }
+h1{
+  font-size: 44px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 29px;
+  line-height: 1;
+}
+h3 {
+  font-size: 23px;
+  line-height: 1;
+
+}
+
+.btn {
+  margin-left: 0;
+}
+  .title {
+    display: inline;
+    font-size: 44px;
+  }
+
+  .display__none {
+    display: none;
+   }
+  
+  .navbar__wrap {
+    border: none;
+  }
+
+
+  /* HomeView */
+  /* //////////// */
+
+  .block__info {
+    background: url('./assets/fonMobile.png');
+    background-size:cover ;
+  }
+  .block__info__row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .block__info__btn {
+    position: static;
+    margin-right: 70px;
+  }
+  .block__info__Bottoms {
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+  }
+
+  .block__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .bloc__info__img__radius {
+    margin: 0;
+  }
+
+  .bloc__info__img__radius::before {
+    top: -10px;
+    left: 30px;
+  }
+  .bloc__info__img__radius::after {
+    position: static;
+  }
+
+  .block_info__img::after  {
+    top: 175px;
+    left: 185px;
+  }
+  .block_info__img::before {
+    background-size: cover;
+    width: 285px;
+    height: 290px;
+  }
+
+  .block__info__sub::before {
+
+background: none;
+  }
+
+
+  .block_info__img {  
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+  /* specialization */
+  /* //////////////// */
+  .specialization_contet,.base__cards {
+    background: url('./assets/fonMobile.png');
+    background-size:cover ;
+  }
+
+  .specialization .title::before {
+    background: none;
+  }
+
+  .top__circle::after {
+    background: none;
+  }
+
+  .top__circle::before {
+    background: none;
+  }
+
+  .specialization__img::after {
+    background: none;
+  }
+
+  /* Servises */
+  /* ///////////////// */
+  .color__black::after {
+    background: none;
+  }
+
+  .color__black::before {
+    background: none;
+
+  }
+  /* base */
+  /* ////////// */
+
+  .base__svg {
+    position: relative;
+    left: 0;
+  }
+
+  .base__text {
+    width: auto;
+  }
+
+  .base__sub {
+    font-size: 15px;
+    padding: 20px;
+  }
+
+/* Contact */ 
+  .contact__font::before {
+    background: none;
+  }
+
+
+}
+
+@media (max-width: 1150px) { 
+  #app {
+    min-width: 100%;
+    padding: 0;
+  }
+  .container {
+    width: 97%;
+  }
+h1{
+  font-size: 44px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 29px;
+  line-height: 1;
+}
+h3 {
+  font-size: 23px;
+  line-height: 1;
+
+}
+
+.btn {
+  margin-left: 0;
+}
+  .title {
+    display: inline;
+    font-size: 44px;
+  }
+
+  .display__none {
+    display: none;
+   }
+  
+  .navbar__wrap {
+    border: none;
+  }
+
+
+  /* HomeView */
+  /* //////////// */
+
+  .block__info {
+    background: url('./assets/fonMobile.png');
+    background-size:cover ;
+  }
+  .block__info__row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .block__info__btn {
+    position: static;
+    margin-right: 70px;
+  }
+  .block__info__Bottoms {
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+  }
+
+  .block__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .bloc__info__img__radius {
+    margin: 0;
+  }
+
+  .bloc__info__img__radius::before {
+    top: -10px;
+    left: 30px;
+  }
+  .bloc__info__img__radius::after {
+    position: static;
+  }
+
+  .block_info__img::after  {
+    top: 175px;
+    left: 185px;
+  }
+  .block_info__img::before {
+    background-size: cover;
+    width: 285px;
+    height: 290px;
+  }
+
+  .block__info__sub::before {
+
+background: none;
+  }
+
+
+  .block_info__img {  
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+  /* specialization */
+  /* //////////////// */
+  .specialization_contet,.base__cards {
+    background: url('./assets/fonMobile.png');
+    background-size:cover ;
+  }
+
+  .specialization .title::before {
+    background: none;
+  }
+
+  .top__circle::after {
+    background: none;
+  }
+
+  .top__circle::before {
+    background: none;
+  }
+
+  .specialization__img::after {
+    background: none;
+  }
+
+  /* Servises */
+  /* ///////////////// */
+  .color__black::after {
+    background: none;
+  }
+
+  .color__black::before {
+    background: none;
+
+  }
+  /* base */
+  /* ////////// */
+
+  .base__svg {
+    position: relative;
+    left: 0;
+  }
+
+
+  .base__sub {
+    font-size: 25px;
+    padding: 20px;
+  }
+
+/* Contact */ 
+  .contact__font::before {
+    background: none;
+  }
+}

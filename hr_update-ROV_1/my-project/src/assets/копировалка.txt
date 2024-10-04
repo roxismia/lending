@@ -1,0 +1,853 @@
+ 
+<script setup>
+import HelloWorld from './components/HelloWorld.vue'
+</script>
+
+<template>
+
+    <header >
+
+      <div class="container">
+          <nav>
+              <ul>
+                  <li><h4>Мой опыт</h4></li>
+                  <li><h4>Специализация</h4></li>
+                  <li><h4>Экспертиза</h4></li>
+                  <li><h4>IT - база</h4></li>
+                  <li><h4>УСЛУГИ</h4></li>
+                  <li><h4>Контакты</h4></li>
+              </ul>
+              <div class="arrow"></div>
+          </nav>
+      </div>
+  </header>
+  <div class="container">
+  <div class="title"><h1>ВАСИЛИЙ  КУЗНЕЦОВ</h1></div>
+  <div></div>
+  </div>
+
+  <div class="block__info">
+
+      <div class="container">
+          <div class="block__info__row">
+              <div class="block__info__text">
+                  <div class="block__info__title"><h2>Нужен <span>надёжный</span> <br>коллектив  для IT - <br> проекта?</h2></div>
+                  <div class="block__info__sub"><h3>Соберу команду <br> профессионалов!</h3></div>
+              </div>
+              <div class="bloc__info__img__radius">
+              <div class="block_info__img">
+              </div>
+            </div>
+          </div>
+          <div class="block__info__Bottoms">
+            <div class="btn"><span>Связаться</span></div>
+            <div class="block__info__btn">
+              <div><span>CODE</span><span>SEO</span></div>
+              <div><span>JAVA</span><span>PYTHON</span></div>
+              <div><span>UX/UI</span><span>VUE.JS</span> <span>SQL</span></div>
+              </div>
+        </div>
+      </div>
+
+  </div>
+
+    <div class="specialization">
+      <header >
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><h4>Мой опыт</h4></li>
+                    <li><h4>Специализация</h4></li>
+                    <li><h4>Экспертиза</h4></li>
+                    <li><h4>IT - база</h4></li>
+                    <li><h4>УСЛУГИ</h4></li>
+                    <li><h4>Контакты</h4></li>
+                </ul>
+                <div class="arrow"></div>
+            </nav>
+        </div>
+    </header>
+    <div class="title"><h1>СПЕЦИАЛИЗАЦИЯ</h1></div>
+
+      <div class="specialization_contet">
+        <div class="container">
+          <div class="specialization__row">
+            <div class="specialization__text">
+              <h5>Я разработал эффективные стратегии поиска и отбора кандидатов,
+              используя как традиционные методы, так и инновационные подходы, включая социальные сети и специализированные платформы. <br> <br>
+
+              Моя компетенция включает проведение комплексных интервью, ассессментов
+              и тестирований для оценки профессиональных и личных качеств кандидатов.
+            </h5></div>
+            <div class="specialization__circle">
+              <div class="top__circle">+12 лет <br> опыта</div>
+              <div class="bottom__circle">
+                <div class="bottom__circle1">HR-технологии</div>
+                <div class="bottom__circle2">Аналитика</div>
+                <div class="bottom__circle3">Навыки коммуникации</div>
+              </div>
+            </div>
+            <div class="specialization__img"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="experience">
+
+      <header >
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><h4>Мой опыт</h4></li>
+                    <li><h4>Специализация</h4></li>
+                    <li><h4>Экспертиза</h4></li>
+                    <li><h4>IT - база</h4></li>
+                    <li><h4>УСЛУГИ</h4></li>
+                    <li><h4>Контакты</h4></li>
+                </ul>
+                <div class="arrow"></div>
+            </nav>
+        </div>
+    </header>
+    <div class="title"><h1>ЭКСПЕРТИЗА И ОПЫТ</h1></div>
+
+      <div class="experience__cards">
+        <div class="experience__card">
+          <div class="card__content top ">
+            <span class="card__number">1</span>
+            <div class="card__text">Подбираю команды под Ваши бизнес-идеи</div>
+          </div>
+          <div class="card__content center">
+            <div class="card__number">2</div>
+            <div class="card__text">Лично составляю <br> и проверяю ТЗ</div>
+          </div>
+          <div class="card__content bottom">
+            <div><div class="card__number">3</div>
+            <div class="card__text">Декомпозирую <br> задачи в Jira</div>
+          <div><div class="card__number">4</div>
+            <div class="card__text">Проверяю <br> правильность <br> выполнения задач</div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+        <div class="experience__card"><div class="experience__card__img"></div></div>
+        <div class="experience__card">
+        <div class="experience__btn ">
+          <span>JAVA</span><span>NOCODE</span><span>SEO</span><span>LARAVEL</span>
+        </div>
+        <div class="card__content color__5"><div class="card__number">5</div><div class="card__text">Разработка и реализация стратегических планов компании</div></div>
+        <div class="card__content color__6"><div class="card__number">6</div><div class="card__text">Внедряю новые технологии и методики работы</div></div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="base">
+    <header >
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><h4>Мой опыт</h4></li>
+                    <li><h4>Специализация</h4></li>
+                    <li><h4>Экспертиза</h4></li>
+                    <li><h4>IT - база</h4></li>
+                    <li><h4>УСЛУГИ</h4></li>
+                    <li><h4>Контакты</h4></li>
+                </ul>
+                <div class="arrow"></div>
+            </nav>
+        </div>
+    </header>
+    <div class="title"><h1>ЛИЧНАЯ IT - БАЗА</h1><div class="title__right">+500 <br> спецов</div></div>
+
+      <div class="base__cards">
+          <div class="container">
+            <div class="base__card__TR">
+              <div class="base__title">Разработка,Тестирование, <br> DevOps</div>
+              <div class="base__title">Маркетинг и Дизайн</div>
+              <div class="base__title">Data и безопасность</div>
+            </div>
+            <div class="base__card__row">
+              <div class="base__card">
+                <div class="base__svg"></div>
+                <div class="base__text">
+                  <div class="base__sub">Back-end и Front-end разработчики
+                    любого стека (PHP, C++, C#, .Net, Python, Go, Perl,
+                    Java, Node.js, Android, IOS, и т.п.), cистемные администраторы,
+                      DevOps инженеры, QA lead, QA engineer,
+                      ручное и автоматизированное тестирование
+                    </div>
+                </div>
+              </div>
+
+
+
+              <div class="base__card">
+                <div class="base__svg"></div>
+                <div class="base__text">
+                  <div class="base__sub">Директологи, Интернет-маркетологи,
+                    таргетологи, web-аналитики, SEO-оптимизаторы, траффик-менеджеры,
+                    email-маркетологи, digital-стратеги, digital креаторы,
+                    SMM-менеджеры, контент менеджеры, копирайтеры,
+                    редактора. Web и граф. дизайнеры, UI / UX дизайнеры,
+                      иллюстраторы.
+                    </div>
+                </div>
+              </div>
+
+
+
+              <div class="base__card">
+                <div class="base__svg"></div>
+                <div class="base__text">
+                  <div class="base__sub">Администратор базы данных,
+                      Data Analytics, Data Scientists, BI, Пентестеры,
+                      Machine Learning Developer, Информационная безопасность,
+                        Специалисты по сетям, Облачная безопасность, Риск менеджер
+                      </div>
+                </div>
+              </div>
+
+
+
+              <div class="base__card">
+                <div class="base__svg"></div>
+                <div class="base__text">
+                  <div class="base__title">Управление, проекты <br> и сервис</div>
+                </div>
+              </div>
+
+
+              <div class="base__card">
+                <div class="base__svg"></div>
+                <div class="base__text">
+                  <div class="base__title">GameDev направление</div>
+                </div>
+              </div>
+
+
+              <div class="base__card">
+                <div class="base__svg"></div>
+                <div class="base__text">
+                  <div class="base__title">Подбор в web 3.0 <br> проекты</div>
+                </div>
+              </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+     <div class="technologies">
+
+      <header >
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><h4>Мой опыт</h4></li>
+                    <li><h4>Специализация</h4></li>
+                    <li><h4>Экспертиза</h4></li>
+                    <li><h4>IT - база</h4></li>
+                    <li><h4>УСЛУГИ</h4></li>
+                    <li><h4>Контакты</h4></li>
+                </ul>
+                <div class="arrow"></div>
+            </nav>
+        </div>
+    </header>
+
+      <div class="title"><h1>ЛИЧНАЯ IT - БАЗА</h1><div class="title__right">+500 <br> спецов</div></div>
+
+      <div class="technologies__content">
+        <div class="technologies__row">
+          <div class="technologies__svg"></div>
+        </div>
+      </div>
+     </div>
+
+</template>
+
+<style>
+@font-face {
+    font-family: 'Benzin';
+    src: local('Benzin Regular'), local('Benzin-Regular'),
+        url('Benzin-Regular.woff2') format('woff2'),
+        url('Benzin-Regular.woff') format('woff'),
+        url('Benzin-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* GENERAL STYLES */
+ul {
+  list-style-type: none;
+}
+
+body {
+  background: #ffff;
+  list-style: none;
+  list-style-type:none;
+}
+h1 {
+  text-align: left;
+    font-size: 95px;
+    font-family:url('Benzin-Regular.woff2') format('woff2');
+    color: #212121;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    font-size: 55px;
+    font-family: url('Benzin-Bold.woff2') format('woff2');
+    font-style: Bold;
+    line-height: 63px;
+}
+
+h3 {
+    font-size: 41px;
+    font-family:url('Benzin-Regular.woff2') format('woff2');
+    line-height: 54px;
+}
+
+h4 {
+  font-size: 18px;
+  font-family:url('Benzin-Regular.woff2') format('woff2');
+
+}
+
+h5 {
+  font-size: 23pxpx;
+  font-family:url('Benzin-Regular.woff2') format('woff2');
+
+}
+
+.content {
+  display: inline-block;
+}
+
+.container {
+    width: 1374px;
+    margin: 20px 0;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*HEADER*/
+nav {
+  display: flex;
+  border-bottom: 1px solid #212121;
+
+}
+nav ul {
+  width: 55%;
+    display: flex;
+    justify-content: space-between;
+    font-family:url('Benzin-Regular.woff2') format('woff2');
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #212121;
+}
+nav ul li {
+  padding-top: 20px;
+}
+
+.arrow {
+  margin-top: 40px;
+  margin-left: 310px;
+  width: 150px;
+  height: 20px;
+  background: url("./assets/Frame 160.png");
+}
+.block__info {
+  padding: 22px 35px;
+  background: url("./assets/фон.png");
+  background-size: cover;
+  background-position: center;
+  border: 10px;
+  border-radius: 25px;
+}
+
+.block__info__title {
+  margin-bottom: 29px;
+}
+.block__info__title span {
+    color: #A0B427;
+}
+
+.block__info__row {
+    display: flex;
+}
+.block__info__text {
+  text-align: start;
+
+  width: 50%;
+}
+
+.block__info__sub {
+  position: relative;
+  z-index: 1;
+}
+
+.block__info__sub::before {
+  content: "";
+  width: 308px;
+  height: 200px;
+  position: absolute;
+  top: -40px;
+  left: 105px;
+  background: url("./assets/Ellipse 9.svg");
+  background-size: cover;
+  z-index: -2;
+
+}
+.bloc__info__img__radius {
+  margin-left: 80px;
+  position: relative;
+  border: 1px solid #212121;
+  border-radius: 50%;
+}
+
+.bloc__info__img__radius::before {
+  content: "";
+  width: 108px;
+  height: 108px;
+  position: absolute;
+  top: 0px;
+  left: -90px;
+  background: url("./assets/Star 2(1).png");
+  background-size: cover;
+  z-index: 2;
+}
+
+.bloc__info__img__radius::after {
+  content: "";
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  top: 120px;
+  left: -105px;
+  background: url("./assets/Star 4.png");
+  background-size: cover;
+  z-index: 2;
+}
+
+
+.block_info__img {
+  position: relative;
+  margin: 60px;
+  width: 300px;
+  height: 300px;
+    border-radius: 50%;
+    background: url("./assets/boss.png");
+}
+
+.block_info__img::before {
+  content: "";
+  width: 385px;
+  height: 390px;
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  background: url("./assets/Linked Path Group.png");
+  z-index: 2;
+}
+
+.block_info__img::after {
+  content: "";
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  top: 440px;
+  left: 340px;
+  background: url("./assets/Star 4.png");
+  z-index: 2;
+}
+
+
+.block__info__Bottoms {
+  position: relative;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.block__info__btn {
+  position: absolute;
+  top: -120px;
+  left: 450px;
+  width: 50%;
+  display: flex;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+}
+.block__info__btn div {
+
+  margin-top: 35px;
+}
+.block__info__btn span {
+align-items: center;
+padding: 12px 35px;
+border: 1px solid #D1CBCB;
+border-radius: 30px;
+border-radius: 35px;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+
+.btn {
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  background: #A0B427;
+  border: 1px solid #212121;
+  box-shadow: 0px 4px 10px rgba(160, 180, 39, 0.25);
+  border-radius: 50px;
+  font-size: 22px;
+  font-family:url('Benzin-Regular.woff2') format('woff2');
+  color: #212121;
+}
+.btn span {
+margin-top: 50px;
+}
+
+/* ////////////////////////// */
+/* specialization */
+
+.specialization_contet{
+  height: 550px;
+background: url("./assets/fon2.png");
+background-size:cover ;
+}
+
+.specialization__row {
+  display: flex;
+
+}
+
+.specialization__text {
+width: 445px;
+height:  672px;
+padding: 49px 80px;
+text-align: left;
+font-size: 23px;
+color: #FFFFFF;
+}
+
+.top__circle {
+  position: relative;
+  margin-top: 25px;
+padding: 45px 50px;
+font-family: 'Benzin-Regular';
+line-height: 30px;
+text-align: center;
+background:#A0B427;
+color: #212121;
+border-radius: 50%;
+}
+
+.top__circle::before {
+  content: "";
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top: 150px;
+    left: 235px;
+    background: url("./assets/Star 4.png");
+    background-size: cover ;
+
+}
+
+.top__circle::after {
+  content: "";
+    width: 87px;
+    height: 87px;
+    position: absolute;
+    top: 25px;
+    left: 175px;
+    background: url("./assets/Star 2(1).png");
+    background-size: cover ;
+
+}
+
+.bottom__circle {
+  position: relative;
+}
+.bottom__circle1 {
+  top: 45px;
+  padding: 50px 35px;
+  position: absolute;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  font-size: 14px;
+}
+.bottom__circle2 {
+  position: absolute;
+  top: 170px;
+  padding: 55px 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  font-size: 14px;
+  right: 100px;
+
+}
+
+.bottom__circle3 {
+  position: absolute;
+  top: 180px;
+  padding: 60px 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  font-size: 14px;
+left: 50px;
+
+}
+
+.specialization__img {
+  position: relative;
+  margin-top: 130px;
+  margin-left: 130px;
+  width: 298px;
+  height: 298px;
+  background: url("./assets/boss2.png");
+  border-radius: 50%;
+}
+
+.specialization__img::before {
+  content: "";
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: -160px;
+    left: -145px;
+    background: url("./assets/Linked Path Group.svg");
+    background-size: cover ;
+    z-index: 2;
+}
+
+.specialization__img::after {
+  content: "";
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    top: 320px;
+    left: 275px;
+    background: url("./assets/Star 4.png")
+}
+
+ .specialization .title{
+position: relative;
+}
+.specialization .title::before {
+  content: "";
+    width: 79px;
+    height: 79px;
+    position: absolute;
+    top: 15px;
+    right: 75px;
+    background: url("./assets/Icon.svg");
+    background-size: cover ;
+
+}
+
+
+/* /////////////////////////////////// */
+/* Experience */
+
+.experience__cards {
+  display: flex;
+  margin-top: 20px;
+}
+
+.experience__card {
+  width: 33%;
+  margin-right: 30px;
+}
+
+.card__content {
+  display: flex;
+width: 400px;
+height: 226px;
+border: 1px solid #222222;
+border-radius: 20px;
+font-size: 22px;
+}
+
+
+.bottom {
+  position: relative;
+  top: -196px;
+  background: #A0B427;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom div {
+  display: flex;
+}
+
+ .top {
+  background: #5C42C8;
+}
+
+.center {
+  position: relative;
+  top: -100px;
+
+  background: #D11074;
+}
+
+.card__number {
+  margin: 10px;
+  padding: auto;
+  margin-top: 38px ;
+  margin-left: 16px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+}
+
+.card__text {
+  text-align: left;
+  margin-top: 38px;
+  margin-left: 5px;
+}
+
+.experience__card__img {
+  width: 402px;
+  height: 486px;
+  background: url("./assets/boss3.png");
+  border-radius: 20px;
+}
+
+.experience__btn {
+  display: flex;
+  flex-wrap: wrap;
+  color: #212121;
+  padding-left: 20px;
+  font-size: 22px;
+  margin-right: 10px;
+
+}
+
+.experience__btn {
+
+}
+
+.color__5 {
+background: #5C42C8;
+position: relative;
+bottom: -50px;
+    z-index: 2;
+}
+
+.color__6 {
+  position: relative;
+top: -40px;
+  background: #D11074;
+}
+
+.color__6 .card__text {
+  padding-top: 70px;
+}
+
+.color__6 .card__number {
+  padding-top: 70px;
+}
+
+
+/* //////////////////////////////// */
+/* Base */
+.base__cards {
+  padding-top: 50px;
+  padding-left: 30px ;
+  background: url('./assets/fon2.png');
+  background-size:cover ;
+  border-radius: 30px;
+}
+
+.base__card__TR {
+  display: flex;
+  margin-left: 80px;
+  width: 1000px;
+  justify-content: space-between;
+}
+.base__card__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.base__card {
+
+  display: flex;
+  align-items: flex-start;
+  width: 29%;
+  margin-bottom: 30px;
+}
+
+.base__svg {
+  position: relative;
+  top: -30px;
+  width: 78px;
+  height: 78px;
+  background: url('./assets/lamp.svg');
+  margin-right: 10px ;
+}
+
+.base__text {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+
+  text-align: left;
+}
+.base__title {
+
+  font-family: 'Benzin-Medium';
+  font-size: 23px;
+  color: #FFFFFF;
+}
+.base__sub {
+font-family: 'Benzin-Regular';
+font-size: 20px;
+color: #FFFFFF;
+}
+
+.title__right {
+font-family: 'Benzin-Regular';
+font-size: 40px;
+line-height: 89%;
+color: #212121;
+}
+</style>
